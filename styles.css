@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    min-width: 445px;
+}
+
+.header-container h3 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-logo-container {
+    display: flex;
+    min-width: 500px;
+
+}
+
+.header-title {
+    display: flex;
+    flex-flow: column;
+    height: 200px;
+    min-width: 445px;
+    justify-content: space-between;
+}
+
+.header-links a, .header-title p{
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.header-title p {
+    margin:0;
+    margin-bottom: 5px;
+}
+
+.header-links {
+    display: flex;
+    gap: 25px;
+    min-width: 400px;
+}
+.top-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 100px;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.header-title h1{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.header-image {
+    display: flex;
+    flex-grow: 0;
+}
+
+.header-image img {
+    height: 200px;
+    width: 400px;
+    object-fit: cover;
+}
+
+.header-title button {
+    background: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    border-radius: 10px;
+    border-color: #3882F6;
+    padding: 5px 15px;
+    height: 30px;
+    width: 90px;
+    border-style: solid;
+}
+
+
