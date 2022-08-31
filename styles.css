@@ -134,3 +134,34 @@ header {
     border-radius: 20px;
 }
 
+/* Quote-Container */
+.quote-container {
+    background: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    min-width: 600px;
+}
+
+.quote{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: light;
+    font-style: italic;
+    margin: 0;
+}
+
+.quote-author {
+    font-size: 20px;
+    color: #1F2937;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 45px;
+}
+
+.quote-container-2 {
+    width: 600px;
+}
