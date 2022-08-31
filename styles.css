@@ -165,3 +165,50 @@ header {
 .quote-container-2 {
     width: 600px;
 }
+
+/* Sign Up Container */
+
+.sign-up-container {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-up-container-2 {
+    display: flex;   
+    height: 100px;
+    width: 900px;
+    background: #3882F6;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    border-radius: 10px;
+}
+
+.sign-up-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-up-text p {
+    margin: 0;
+    color: #F9FAF8;
+}
+
+.main-text {
+    font-weight: bold;
+}
+
+.sign-up-container button {
+    height: 30px;
+    width: 110px;
+    border-radius: 10px;
+    background: #3882F6;
+    color: #F9FAF8;
+    border-color: #F9FAF8;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-style: solid;
+}
+
