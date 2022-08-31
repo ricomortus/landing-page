@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /* Header section + Top container */
@@ -148,7 +148,7 @@ header {
 .quote{
     font-size: 36px;
     color: #1F2937;
-    font-weight: light;
+    font-weight: 200;
     font-style: italic;
     margin: 0;
 }
@@ -212,3 +212,15 @@ header {
     border-style: solid;
 }
 
+/* Footer Section */
+footer {
+    display: flex;
+    background: #1F2937;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    color:#F9FAF8;
+}
